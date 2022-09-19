@@ -1,0 +1,37 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #255ee9;
+    height: 70px;
+    
+}
+    
+.link{
+    color: white;
+    text-decoration: none;
+    margin: 0.5em;
+}
+
+.links-header{
+    display: flex;
+    width: 30vw;
+    padding: 0.5em;
+    margin: 0vh auto 1;
+    justify-content: space-between;  
+}
+ 
+
+.pulsante-accedi{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 11px;
+    border-radius: 20px; 
+    vertical-align: bottom;
+}
