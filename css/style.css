@@ -138,6 +138,7 @@ margin-top: 20px;
     justify-content: center;
     text-align: center;
     align-items: center;
+    
 }
 
 /* Inizio quinto blocco */
@@ -183,24 +184,58 @@ margin: auto;
 }
 
 
-.container{
-    max-width: 1170px;
-    margin: auto;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-ul{
-    list-style: none;
-}
-.footer{
+/* Inizio footer  */
+
+footer{
     background-color: #23272a;
-    padding: 70px 0;
+    padding-bottom: 4rem;
 }
 
-.footer-col{
-width: 25%;
-padding: 0 15px;
-text-decoration: none;
+.container-footer{
+    width: 80%;
+    height: 40vh;
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+    margin-top: 100px;
+}
+
+.footer-heading h2{
+    color:#7289da;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    font-size: 30px;
+}
+.footer-heading h3{
+    color:#7289da;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+}
+.footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+}
+
+.bottom-page{
+    background-color: #23272a;
+    padding-bottom: 4rem;
+}
+
+.mini-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wave{
+    filter: invert(98%) sepia(16%) saturate(172%) hue-rotate(285deg) brightness(116%) contrast(92%);
 }
