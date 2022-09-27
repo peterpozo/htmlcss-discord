@@ -190,61 +190,107 @@ margin: auto;
 /* Inizio footer  */
 
 footer{
+    padding: 80px 0 60px 0;
     background-color: #23272a;
-    padding-bottom: 4rem;
 }
 
-.container-footer{
-    width: 80%;
-    height: 40vh;
-    background-color: #23272a;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+footer .footer-top{
+    max-width: 1200px;
     margin: 0 auto;
-}
-.footer-heading{
     display: flex;
-    flex-direction: column;
-    margin-right: 10rem;
-    margin-top: 100px;
 }
 
-.footer-heading h2{
-    color:#7289da;
-    text-decoration: none;
-    margin-bottom: 1.5rem;
+footer .main-column{
+    flex-basis: 25%;
+}
+
+footer h4, footer h5{
+    padding-right: 20px;
+    margin-bottom: 20px;
+    color: #7388da;;
+}
+h4{
     font-size: 30px;
 }
-.footer-heading h3{
-    color:#7289da;
+#language{
+    color: #fff;
+    font-size: 14px;
     text-decoration: none;
-    margin-bottom: 1.5rem;
-}
-.footer-heading a{
-    color: white;
-    text-decoration: none;
-    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
 }
 
-.bottom-page{
-    background-color: #23272a;
-    padding-bottom: 4rem;
+#language p{
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
 }
 
-.mini-container{
-    width: 80%;
-    margin: 0 auto;
+#language img{
+    width: 25px;
+}
+
+.social-media{
+    width: 50%;
+    margin-top: 20px;
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
 
+.social-media a{
+    color: white;
+}
+
+footer .menu-column{
+    flex-basis: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu li{
+    font-size: 16px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.footer-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #7388da;;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom img{
+    display: block;
+}
+
+.bottone-footer{
+    font-size: 14px;
+    padding: 10px 15px;
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #7388da;
+}
+
+/* Waves  */
+
 .wave{
-    filter: invert(98%) sepia(16%) saturate(172%) hue-rotate(285deg) brightness(116%) contrast(92%);
-    margin-bottom: -4px;
+    filter: opacity(0.04);
+    margin: -4px;
 }
 
 .wave-1{
-    filter: invert(98%) sepia(16%) saturate(172%) hue-rotate(285deg) brightness(116%) contrast(92%);
-
+    transform: rotateX(0.5turn);
+    filter: opacity(0.04);
+    
 }
